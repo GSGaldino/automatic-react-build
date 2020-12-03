@@ -1,0 +1,52 @@
+.faq {
+  width: 100%;
+  position: relative;
+}
+
+.faq .faq-question {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  padding-right: 20px;
+}
+
+.faq .faq-question:hover {
+  color: var(--secondary-color);
+}
+
+.faq:hover svg {
+  color: var(--secondary-color);
+}
+
+.faq .faq-answer {
+  font-size: 16px;
+  padding: 10px 20px;
+
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.5s ease;
+}
+
+.faq svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.4s ease;
+}
+
+.faq.open svg {
+  transform: rotate(180deg);
+}
+
+.faq.open .faq-question {
+  margin-bottom: 10px;
+}
+
+.faq.open .faq-answer {
+  max-height: 1000px;
+  opacity: 1;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+.Goals__Section {
+  display: flex;
+  justify-content: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.Goals__Section .goals {
+  display: flex;
+}
+
+.Goals__Section .Goal__Container {
+  margin: 40px;
+}

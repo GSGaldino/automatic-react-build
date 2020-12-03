@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+  .Header .Header__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header .Header__logos img {
+    margin: auto 10px;
+  }
+}

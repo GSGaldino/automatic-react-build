@@ -1,0 +1,50 @@
+@media screen and (max-width: 800px){
+  .First__Section {
+    width: 100%;
+    height: auto;
+    background-image: url('../../../assets/bg.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    background-position-y: -120px;
+    background-position-x: center;
+    text-align: center;
+  
+    display: block;
+  }
+
+  .First__Section .container:first-child {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .First__Section .container {
+    padding: 0px !important;
+    width: 100%;
+  } 
+  
+  .First__Section h1,
+  .First__Section h3 {
+    color: var(--text-color);
+    word-wrap: break-word;
+  }
+
+  .First__Section h1 {
+    font-size: 40px;
+  }
+
+  .First__Section .container .text {
+    padding: 20px 70px;
+    width: 100%;
+  }
+
+  .First__Section .container .form {
+    margin-top: 130px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    width: 80% ;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+  }
+  
+}

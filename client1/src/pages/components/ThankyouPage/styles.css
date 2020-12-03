@@ -1,0 +1,33 @@
+.ThankyouPage {
+  width: 100%;
+  background: #484848;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+}
+
+.ThankyouPage .Logos .Logos__Container__PB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThankyouPage .Logos .Logos__Container__PB img {
+  margin: 5px 10px;
+  width: 120px;
+}
+
+.ThankyouPage .text {
+  margin: 100px auto 50px auto;
+}
+
+.ThankyouPage .text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.ThankyouPage .text h2 {
+  font-size: 40px;
+  margin: 30px auto;
+}

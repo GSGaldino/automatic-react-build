@@ -1,0 +1,7 @@
+@media screen and (max-width: 800px){
+  .Social__Section svg {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 2px !important;
+  } 
+}

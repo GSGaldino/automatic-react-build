@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px){
+  .Question__Section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 60px;
+    margin: 40px auto;
+    display: block;
+  }
+
+  .Question__Section p {
+    font-size: 20px;
+  }
+
+  .Question__Section .media {
+    margin: 20px auto;
+  }
+
+  .Question__Section .media .item {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+  }
+
+  .Question__Section .media .item svg {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px){
+  .Goals__Section {
+    width: 100%;
+    display: block;
+  }
+
+  .Goals__Section .goals {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+  }
+  
+  .Goals__Section .Goal__Container {
+    margin: 0px;
+  }
+
+}

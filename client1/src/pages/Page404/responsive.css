@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+  .container__Page404 .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container__Page404 .container .button {
+    width: 100%;
+  }
+}

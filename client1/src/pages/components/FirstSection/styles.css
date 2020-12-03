@@ -1,0 +1,100 @@
+.First__Section {
+  display: flex;
+  background: url('../../../assets/bg-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: var(--section-width);
+  margin: 0 auto;
+  height: 400px;
+}
+
+.First__Section .container {
+  width: 50%;
+  text-align: center;
+}
+
+.First__Section .container:first-child {
+  width: 50%;
+  margin-left: -24px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.First__Section .container a {
+  text-align: center;
+}
+
+.First__Section .container .text {
+  width: 60%;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.First__Section .container:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.First__Section .container .form {
+  position: absolute;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Form styles */
+
+.First__Section .form {
+  background: #fff;
+  padding: 20px 5px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+}
+
+.First__Section .form p {
+  color: var(--text-color);
+  margin: 10px auto;
+}
+
+.First__Section .form span {
+  color: #ccc;
+  float: left;
+  margin-left: 10px;
+}
+
+.First__Section .form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #dcdce6;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.First__Section .form input[type="submit"]{
+  background: var(--primary-color);
+  color: #fff;
+  margin-top: 20px;
+}
+
+.First__Section .form .hs-error-msg {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  color: lightcoral;
+}
+
+.First__Section .form ul {
+  list-style: none;
+}
+
+.First__Section .form .hs-error-msg li {
+  display: block;
+}
+
+/* end of form styles */

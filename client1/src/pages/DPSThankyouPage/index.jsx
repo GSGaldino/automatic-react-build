@@ -1,0 +1,8 @@
+import React from 'react';
+import ThankyouPage from '../components/ThankyouPage';
+
+export default function DPSThankyouPage(){
+  return (
+    <ThankyouPage />
+  )
+}

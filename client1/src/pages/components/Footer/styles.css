@@ -1,0 +1,32 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--text-color);
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.Footer h2 {
+  display: none;
+}
+
+.Footer .MediaIcons .media .item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.Footer .MediaIcons .media .item svg {
+  color: #fff !important;
+  margin: 10px;
+}
+
+.Footer .Logos__Container__PB {
+  display: flex;
+  align-items: center;
+}
+
+.Footer .Logos__Container__PB img {
+  margin: 0px 10px;
+}

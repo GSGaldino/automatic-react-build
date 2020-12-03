@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px){
+  .ForWho__Container {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ForWho__Container h3 {
+    margin: 20px auto;
+    font-size: 22px;
+  }
+
+  .ForWho__Container p {
+    padding: 20px;
+    font-size: 20px;
+  }
+}

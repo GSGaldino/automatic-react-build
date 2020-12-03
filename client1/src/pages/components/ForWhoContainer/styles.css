@@ -1,0 +1,14 @@
+.ForWho__Container {
+  width: 1140px;
+  padding: 40px 100px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.ForWho__Container h2 {
+  margin-bottom: 20px;
+}
+
+.ForWho__Container p {
+  font-size: 20px;
+}

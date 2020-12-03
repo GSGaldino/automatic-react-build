@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px){
+  .Mobile__Matriculese {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  
+    border-top: 2px solid #ccc;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    z-index: 90;
+  
+    position: fixed;
+    width: 100%;
+  }
+  
+  .Mobile__Matriculese .container:last-child a {
+    background: var(--button-color);
+    color: #fff;
+    display: block;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,.3);
+  }
+  
+  .Mobile__Matriculese .container p {
+    font-size: 20px;
+  }
+  
+  .Mobile__Matriculese .container p small {
+    font-size: 16px;
+  }
+  
+}

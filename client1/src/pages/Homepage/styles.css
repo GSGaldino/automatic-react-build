@@ -1,0 +1,116 @@
+.Homepage {
+  width: 100%;
+  text-align: center;
+}
+
+.Homepage .Section p {
+  padding: 50px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Homepage .Section .Modality {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  padding: 2px;
+  width: 75%;
+  margin: 10px auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.Homepage .Section {
+  display: flex;
+}
+
+.Homepage .Section .container:first-child {
+  background: linear-gradient(to left, #f7f7f7 80%, #fff);
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.Homepage .Section .container:first-child p {
+  margin: 0px;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+.Homepage .Section .container {
+  width: 50%;
+  position: relative;
+}
+
+.Homepage .Section .container img {
+  position: relative;
+  width: 100%;
+}
+
+.Homepage .Modules__Section .content .Container a {
+  background: var(--primary-color);
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 14px;
+}
+
+/* Estilização componente categoria de cursos */
+
+.Homepage {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.Homepage .Container__Cursos {
+  width: 90%;
+  box-shadow: 0 0 40px rgba(0,0,0,.2);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.Homepage .Container__Cursos section {
+  display: flex;
+  text-align: left;
+}
+
+.Homepage .Container__Cursos section .container:first-child {
+  width: 70px;
+}
+
+.Homepage .Container__Cursos section .container:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.Homepage .Container__Cursos .container img {
+  position: relative;
+  width: 100%;
+}
+
+.Homepage .Container__Cursos section .Courses {
+  width: 100%;
+}
+
+.Homepage .Container__Cursos section .Courses .Course {
+  width: 25%;
+  margin: 10px auto;
+  display: block;
+  float: left;
+}
+
+.Homepage .Container__Cursos section .Courses .Course p strong {
+  transition: filter 0.4s ease;
+}
+
+.Homepage .Container__Cursos section .Courses .Course p strong:hover {
+  filter: brightness(120%);
+}
+
+/* Fim da estilização do componente categoria de cursos */
